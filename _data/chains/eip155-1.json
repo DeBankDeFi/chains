@@ -9,7 +9,10 @@
     "https://cloudflare-eth.com",
     "https://ethereum.publicnode.com"
   ],
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "features": [
+    { "name": "EIP155" },
+    { "name": "EIP1559" }
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -38,3 +41,4 @@
     }
   ]
 }
+
