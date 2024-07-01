@@ -5294,6 +5294,21 @@
     "standard": "none"
   }]
 }, {
+  "name": "Shape",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://shape.us",
+  "shortName": "shape",
+  "chainId": 360,
+  "networkId": 360,
+  "status": "incubating"
+}, {
   "name": "Theta Mainnet",
   "chain": "Theta",
   "rpc": ["https://eth-rpc-api.thetatoken.org/rpc"],
@@ -5974,6 +5989,21 @@
     "url": "https://areonscan.com",
     "standard": "none"
   }]
+}, {
+  "name": "World Chain",
+  "chain": "ETH",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://worldcoin.org",
+  "shortName": "wc",
+  "chainId": 480,
+  "networkId": 480,
+  "status": "incubating"
 }, {
   "name": "Rupaya",
   "chain": "RUPX",
@@ -8252,6 +8282,26 @@
     "name": "Memo Mainnet Explorer",
     "url": "https://scan.metamemo.one:8080",
     "icon": "memo",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "BinaryChain Mainnet",
+  "chain": "BinaryChain",
+  "icon": "binary",
+  "rpc": ["https://rpc.binarychain.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BINARY",
+    "symbol": "BNRY",
+    "decimals": 18
+  },
+  "infoURL": "https://binarychain.org",
+  "shortName": "binary",
+  "chainId": 987,
+  "networkId": 987,
+  "explorers": [{
+    "name": "BinaryChain Explorer",
+    "url": "https://explorer.binarychain.org",
     "standard": "EIP3091"
   }]
 }, {
@@ -10754,6 +10804,25 @@
       "url": "https://bridge.gravity.xyz"
     }]
   }
+}, {
+  "name": "Pivotal Mainnet",
+  "chainId": 1648,
+  "networkId": 1648,
+  "chain": "Pivotal",
+  "rpc": ["https://mainnet.pivotalprotocol.com"],
+  "faucets": [],
+  "shortName": "pivotal-mainnet",
+  "nativeCurrency": {
+    "name": "Pivotal Plus",
+    "symbol": "PLUS",
+    "decimals": 18
+  },
+  "infoURL": "http://thepivotal.xyz/",
+  "explorers": [{
+    "name": "Pivotal Scan",
+    "url": "https://pivotalscan.xyz",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Btachain",
   "chain": "btachain",
@@ -20106,6 +20175,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "BinaryChain Testnet",
+  "chain": "BinaryChain",
+  "icon": "binary",
+  "rpc": ["https://rpctestnet.binarychain.org"],
+  "faucets": ["https://faucet.testnet.binarychain.org"],
+  "nativeCurrency": {
+    "name": "BINARY",
+    "symbol": "BNRY",
+    "decimals": 18
+  },
+  "infoURL": "https://binarychain.org",
+  "shortName": "binarytestnet",
+  "chainId": 9876,
+  "networkId": 9876,
+  "explorers": [{
+    "name": "BinaryChain Testnet Explorer",
+    "url": "https://explorer.testnet.binarychain.org",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Dogelayer Mainnet",
   "chain": "Dogelayer",
   "rpc": ["https://dl-rpc.dogelayer.org"],
@@ -21917,6 +22006,25 @@
     "type": "L2",
     "chain": "eip155-248"
   }
+}, {
+  "name": "Pivotal Sepolia",
+  "chainId": 16481,
+  "networkId": 16481,
+  "chain": "Pivotal",
+  "rpc": ["https://sepolia.pivotalprotocol.com"],
+  "faucets": [],
+  "shortName": "pivotal-sepolia",
+  "nativeCurrency": {
+    "name": "Pivotal Plus",
+    "symbol": "PLUS",
+    "decimals": 18
+  },
+  "infoURL": "http://thepivotal.xyz/",
+  "explorers": [{
+    "name": "Pivotal Scan",
+    "url": "https://sepolia.pivotalscan.xyz",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Genesys Mainnet",
   "chain": "Genesys",
@@ -23934,6 +24042,26 @@
     "name": "Zilliqa EVM Explorer",
     "url": "https://evmx.zilliqa.com",
     "standard": "none"
+  }]
+}, {
+  "name": "Zilliqa 2 EVM proto-testnet",
+  "chain": "ZIL",
+  "rpc": ["https://api.zq2-prototestnet.zilliqa.com"],
+  "faucets": ["https://faucet.zq2-prototestnet.zilliqa.com"],
+  "nativeCurrency": {
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "decimals": 18
+  },
+  "infoURL": "https://www.zilliqa.com/",
+  "shortName": "zq2-proto-testnet",
+  "chainId": 33103,
+  "networkId": 33103,
+  "icon": "zilliqa",
+  "explorers": [{
+    "name": "Zilliqa 2 EVM proto-testnet explorer",
+    "url": "https://explorer.zq2-prototestnet.zilliqa.com",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Entangle Testnet",
@@ -26813,7 +26941,7 @@
 }, {
   "name": "Berachain bArtio",
   "chain": "Berachain bArtio",
-  "rpc": ["https://bartio.rpc.berachain.com", "https://bera-testnet.nodeinfra.com"],
+  "rpc": ["https://bartio.rpc.berachain.com", "https://bera-testnet.nodeinfra.com", "https://bartio.rpc.b-harvest.io"],
   "faucets": ["https://bartio.faucet.berachain.com"],
   "nativeCurrency": {
     "name": "BERA Token",
@@ -30537,6 +30665,31 @@
     "standard": "none"
   }]
 }, {
+  "name": "Autonomys Testnet Nova Domain",
+  "chain": "TATC",
+  "rpc": ["https://nova-0.gemini-3h.subspace.network/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Test Auto Coin",
+    "symbol": "TATC",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://www.autonomys.net",
+  "shortName": "ATN",
+  "chainId": 490000,
+  "networkId": 490000,
+  "explorers": [{
+    "name": "astral",
+    "url": "https://nova.subspace.network",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Playdapp Network",
   "chain": "PDA",
   "icon": "pda",
@@ -31875,6 +32028,28 @@
     "name": "TILTYARD Explorer",
     "url": "http://testnet-explorer.tiltyard.gg",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Sharecle Mainnet",
+  "chain": "SHARECLE",
+  "icon": "sharecle",
+  "rpc": ["https://mainnet.sharecle.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SHARECLE COIN",
+    "symbol": "SHR",
+    "decimals": 18
+  },
+  "infoURL": "https://sharecle.com/",
+  "shortName": "shr",
+  "chainId": 1234567,
+  "networkId": 1234567,
+  "slip44": 1,
+  "explorers": [{
+    "name": "Etherscan",
+    "url": "https://etherscan.io",
+    "standard": "none",
+    "icon": "sharecle"
   }]
 }, {
   "name": "zKatana",

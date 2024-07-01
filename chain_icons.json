@@ -4255,6 +4255,14 @@
     "format": "png"
   }]
 }, {
+  "name": "binary",
+  "icons": [{
+    "url": "ipfs://bafybeifb4vnpn3jv7cfdlne2dwhe6agdnpgmu46a7nbc5divjuyaznkyay",
+    "width": 2000,
+    "height": 2000,
+    "format": "png"
+  }]
+}, {
   "name": "hertz-network",
   "icons": [{
     "url": "ipfs://Qmf3GYbPXmTDpSP6t7Ug2j5HjEwrY5oGhBDP7d4TQHvGnG",
@@ -5588,6 +5596,14 @@
     "url": "ipfs://bafkreigzeanzqgxrzzep45t776ovbwi242poqxbryuu2go5eedeuwwcsay",
     "width": 512,
     "height": 512,
+    "format": "png"
+  }]
+}, {
+  "name": "sharecle",
+  "icons": [{
+    "url": "ipfs://bafybeiaqaphacy5swvtyxw56ma5f5iewjcqspbgxr5l6ln2433liyw2djy",
+    "width": 160,
+    "height": 160,
     "format": "png"
   }]
 }, {

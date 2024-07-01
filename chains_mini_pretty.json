@@ -3275,6 +3275,19 @@
   "faucets": [],
   "infoURL": "https://www.trias.one"
 }, {
+  "name": "Shape",
+  "chainId": 360,
+  "shortName": "shape",
+  "networkId": 360,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://shape.us"
+}, {
   "name": "Theta Mainnet",
   "chainId": 361,
   "shortName": "theta-mainnet",
@@ -3664,6 +3677,19 @@
   "rpc": ["https://mainnet-rpc.areon.network", "https://mainnet-rpc2.areon.network", "https://mainnet-rpc3.areon.network", "https://mainnet-rpc4.areon.network", "https://mainnet-rpc5.areon.network"],
   "faucets": [],
   "infoURL": "https://areon.network"
+}, {
+  "name": "World Chain",
+  "chainId": 480,
+  "shortName": "wc",
+  "networkId": 480,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://worldcoin.org"
 }, {
   "name": "Rupaya",
   "chainId": 499,
@@ -5107,6 +5133,19 @@
   "rpc": ["https://chain.metamemo.one:8501", "wss://chain.metamemo.one:16801"],
   "faucets": ["https://faucet.metamemo.one/"],
   "infoURL": "www.memolabs.org"
+}, {
+  "name": "BinaryChain Mainnet",
+  "chainId": 987,
+  "shortName": "binary",
+  "networkId": 987,
+  "nativeCurrency": {
+    "name": "BINARY",
+    "symbol": "BNRY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.binarychain.org"],
+  "faucets": [],
+  "infoURL": "https://binarychain.org"
 }, {
   "name": "TOP Mainnet",
   "chainId": 989,
@@ -6693,6 +6732,19 @@
   "rpc": ["https://rpc.gravity.xyz"],
   "faucets": [],
   "infoURL": "https://gravity.xyz"
+}, {
+  "name": "Pivotal Mainnet",
+  "chainId": 1648,
+  "shortName": "pivotal-mainnet",
+  "networkId": 1648,
+  "nativeCurrency": {
+    "name": "Pivotal Plus",
+    "symbol": "PLUS",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.pivotalprotocol.com"],
+  "faucets": [],
+  "infoURL": "http://thepivotal.xyz/"
 }, {
   "name": "Btachain",
   "chainId": 1657,
@@ -12466,6 +12518,19 @@
   "faucets": ["https://faucet.imperiumchain.com/"],
   "infoURL": "https://imperiumchain.com"
 }, {
+  "name": "BinaryChain Testnet",
+  "chainId": 9876,
+  "shortName": "binarytestnet",
+  "networkId": 9876,
+  "nativeCurrency": {
+    "name": "BINARY",
+    "symbol": "BNRY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpctestnet.binarychain.org"],
+  "faucets": ["https://faucet.testnet.binarychain.org"],
+  "infoURL": "https://binarychain.org"
+}, {
   "name": "Dogelayer Mainnet",
   "chainId": 9888,
   "shortName": "Dogelayer",
@@ -13583,6 +13648,19 @@
   "rpc": ["https://rpc.defi-verse.org/"],
   "faucets": [],
   "infoURL": "https://defi-verse.org"
+}, {
+  "name": "Pivotal Sepolia",
+  "chainId": 16481,
+  "shortName": "pivotal-sepolia",
+  "networkId": 16481,
+  "nativeCurrency": {
+    "name": "Pivotal Plus",
+    "symbol": "PLUS",
+    "decimals": 18
+  },
+  "rpc": ["https://sepolia.pivotalprotocol.com"],
+  "faucets": [],
+  "infoURL": "http://thepivotal.xyz/"
 }, {
   "name": "Genesys Mainnet",
   "chainId": 16507,
@@ -14791,6 +14869,19 @@
   },
   "rpc": ["https://dev-api.zilliqa.com"],
   "faucets": ["https://dev-wallet.zilliqa.com/faucet?network=testnet"],
+  "infoURL": "https://www.zilliqa.com/"
+}, {
+  "name": "Zilliqa 2 EVM proto-testnet",
+  "chainId": 33103,
+  "shortName": "zq2-proto-testnet",
+  "networkId": 33103,
+  "nativeCurrency": {
+    "name": "Zilliqa",
+    "symbol": "ZIL",
+    "decimals": 18
+  },
+  "rpc": ["https://api.zq2-prototestnet.zilliqa.com"],
+  "faucets": ["https://faucet.zq2-prototestnet.zilliqa.com"],
   "infoURL": "https://www.zilliqa.com/"
 }, {
   "name": "Entangle Testnet",
@@ -16505,7 +16596,7 @@
     "symbol": "BERA",
     "decimals": 18
   },
-  "rpc": ["https://bartio.rpc.berachain.com", "https://bera-testnet.nodeinfra.com"],
+  "rpc": ["https://bartio.rpc.berachain.com", "https://bera-testnet.nodeinfra.com", "https://bartio.rpc.b-harvest.io"],
   "faucets": ["https://bartio.faucet.berachain.com"],
   "infoURL": "https://www.berachain.com"
 }, {
@@ -18771,6 +18862,19 @@
   "faucets": [],
   "infoURL": "https://www.openchain.live"
 }, {
+  "name": "Autonomys Testnet Nova Domain",
+  "chainId": 490000,
+  "shortName": "ATN",
+  "networkId": 490000,
+  "nativeCurrency": {
+    "name": "Test Auto Coin",
+    "symbol": "TATC",
+    "decimals": 18
+  },
+  "rpc": ["https://nova-0.gemini-3h.subspace.network/ws"],
+  "faucets": [],
+  "infoURL": "https://www.autonomys.net"
+}, {
   "name": "Playdapp Network",
   "chainId": 504441,
   "shortName": "PDA",
@@ -19563,6 +19667,19 @@
   "rpc": ["https://subnets.avax.network/tiltyard/testnet/rpc"],
   "faucets": [],
   "infoURL": ""
+}, {
+  "name": "Sharecle Mainnet",
+  "chainId": 1234567,
+  "shortName": "shr",
+  "networkId": 1234567,
+  "nativeCurrency": {
+    "name": "SHARECLE COIN",
+    "symbol": "SHR",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.sharecle.com"],
+  "faucets": [],
+  "infoURL": "https://sharecle.com/"
 }, {
   "name": "zKatana",
   "chainId": 1261120,
